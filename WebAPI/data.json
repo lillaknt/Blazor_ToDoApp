@@ -7,7 +7,21 @@
     {
       "Id": 2,
       "UserName": "Isak"
+    },
+    {
+      "Id": 3,
+      "UserName": "Nina"
     }
   ],
-  "Todos": []
-}s
+  "Todos": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Lilla"
+      },
+      "Title": "FInish DNP assignment",
+      "IsCompleted": false
+    }
+  ]
+}
