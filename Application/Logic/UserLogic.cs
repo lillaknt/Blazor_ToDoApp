@@ -45,4 +45,10 @@ public class UserLogic : IUserLogic
 
 
     }
+
+
+    public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
+    {
+        return userDao.GetAsync(searchParameters);
+    }
 }
