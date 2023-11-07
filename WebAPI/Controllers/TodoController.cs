@@ -79,4 +79,19 @@ public class TodoController : ControllerBase
         }
     }
     
+    [HttpGet("{id:int}")]
+    public async Task<ActionResult<TodoBasicDto>> GetById([FromRoute] int id)
+    {
+        try
+        {
+            TodoBasicDto result = await todoLogic.GetByIdAsync(id);
+            return Ok(result);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
+    
 }
