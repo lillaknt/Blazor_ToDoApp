@@ -15,15 +15,6 @@
   ],
   "Todos": [
     {
-      "Id": 1,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Lilla"
-      },
-      "Title": "FInish DNP assignment",
-      "IsCompleted": false
-    },
-    {
       "Id": 2,
       "Owner": {
         "Id": 3,
@@ -39,6 +30,15 @@
         "UserName": "Lilla"
       },
       "Title": "Talk to Susanne",
+      "IsCompleted": false
+    },
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Isak"
+      },
+      "Title": "string",
       "IsCompleted": false
     }
   ]
