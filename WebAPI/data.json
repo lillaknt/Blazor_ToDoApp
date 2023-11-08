@@ -29,16 +29,7 @@
         "Id": 1,
         "UserName": "Lilla"
       },
-      "Title": "Talk to Susanne",
-      "IsCompleted": false
-    },
-    {
-      "Id": 1,
-      "Owner": {
-        "Id": 2,
-        "UserName": "Isak"
-      },
-      "Title": "string",
+      "Title": "Finish DNP assignment",
       "IsCompleted": false
     }
   ]
