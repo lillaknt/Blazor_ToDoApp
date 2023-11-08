@@ -55,7 +55,25 @@
         "UserName": "Lilla"
       },
       "Title": "Get XYS",
-      "IsCompleted": false
+      "IsCompleted": true
+    },
+    {
+      "Id": 5,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Lilla"
+      },
+      "Title": "Prepare for ERP",
+      "IsCompleted": true
+    },
+    {
+      "Id": 6,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Lilla"
+      },
+      "Title": "Prepare for Module 5 Test",
+      "IsCompleted": true
     }
   ]
 }

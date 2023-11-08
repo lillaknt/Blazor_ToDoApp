@@ -83,7 +83,7 @@
         {
             TodoCreationDto dto = new((int)selectedUserId, todoTitle);
             await todoService.CreateAsync(dto);
-            navMgr.NavigateTo("/");
+            navMgr.NavigateTo("/ViewTodos");
         }
         catch (Exception e)
         {
